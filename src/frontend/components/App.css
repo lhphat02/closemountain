@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+#mbrand {
+  font-size: 25px;
+  font-weight: 700;
+}
+#wallet {
+  width: 20px;
+}

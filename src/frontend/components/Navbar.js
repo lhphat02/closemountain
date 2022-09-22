@@ -8,9 +8,9 @@ const Navigation = ({ web3Handler, account }) => {
     return (
         <Navbar expand="lg" bg="secondary" variant="dark">
             <Container>
-                <Navbar.Brand href="http://www.dappuniversity.com/bootcamp">
-                    <img src={market} width="40" height="40" className="" alt="" />
-                    &nbsp; DApp NFT Marketplace
+                <Navbar.Brand href="https://opensea.io/" id="mbrand">
+                    <img src={market} width="60" height="60" className="" alt="" />
+                    &nbsp; CloseMountain
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -33,7 +33,9 @@ const Navigation = ({ web3Handler, account }) => {
 
                             </Nav.Link>
                         ) : (
-                            <Button onClick={web3Handler} variant="outline-light">Connect Wallet</Button>
+                            <Button onClick={web3Handler} variant="outline-light">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3884/3884407.png" id="wallet"></img>
+                            </Button>
                         )}
                     </Nav>
                 </Navbar.Collapse>
