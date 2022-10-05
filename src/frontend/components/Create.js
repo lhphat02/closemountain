@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ethers } from "ethers"
 import { Row, Form, Button } from 'react-bootstrap'
-import { create as ipfsHttpClient } from 'ipfs-http-client'
+// import { create as ipfsHttpClient } from 'ipfs-http-client'
 import { Buffer } from 'buffer';
 
 const ipfsClient = require('ipfs-http-client');
